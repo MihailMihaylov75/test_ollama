@@ -29,3 +29,12 @@ MODELS_DIR = CACHE_DIR / "ollama_models"
 MODEL_NAME = "qwen2.5:3b"
 MIN_FREE_GB = 5
 OLLAMA_BASE_URL = "http://localhost:11434"
+
+# Network timeouts (seconds)
+TAGS_TIMEOUT_S = 10
+PING_TIMEOUT_S = 5
+PULL_TIMEOUT_S = 900
+GENERATE_TIMEOUT_S = 30
+
+# Disk requirements
+BYTES_IN_GB = 1024 ** 3
